@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navgraph"
+    app:startDestination="@id/qatar2022Fragment">
+
+    <fragment
+        android:id="@+id/qatar2022Fragment"
+        android:name="com.ort.qatar2022app.fragments.Qatar2022Fragment"
+        android:label="qatar2022_fragment"
+        tools:layout="@layout/qatar2022_fragment" />
+</navigation>
